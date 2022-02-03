@@ -1,5 +1,5 @@
 # burger
-
+Este projeto é somente para fins de aprendizado de Vue.js
 ## Project setup
 ```
 npm install
