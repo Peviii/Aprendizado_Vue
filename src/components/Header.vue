@@ -4,11 +4,13 @@
 		<li><a href="#">projetos</a></li>
 		<li><a href="#">contato</a></li>
 		<li><a href="#">dashboard</a></li>
+		<li v-if="esta_logado"><a href="#">Meu Perfil</a></li>
 	</ul>
 </template>
 <script>
 	export default{
-		name:'header'
+		name:'header',
+		props:["esta_logado"]
 	}
 </script>
 <style scoped>

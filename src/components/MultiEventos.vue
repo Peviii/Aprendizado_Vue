@@ -2,7 +2,7 @@
 	<div>
 		<button @click="primeiro(txt1,$event),segundo(txt2,$event),terceiro()">
 		Ativar multiplos eventos
-	    </button>
+        </button>
 		<p>{{multi_eventos}}</p>
 	</div>
 </template>

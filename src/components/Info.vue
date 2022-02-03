@@ -29,11 +29,14 @@
 		components:{
 			Picture
 		},
+		props:{
+			email: String,
+			is_working: Boolean
+		},
 		data(){
 			return{
-				is_working: false,
+				
 				show_email:false,
-				email: 'Pedro@email.com',
 				my_link:'https://google.com',
 				textButton:'mostrar email',
 				backend_tech: ["JavaScript","PHP","Python"],
